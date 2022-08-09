@@ -7,12 +7,12 @@ public class Student {
 	public boolean stProgrammer;
 	public float grade;
 
-	public Student() {
+	public Student() {//default constructor
 		System.out.println("This is from default constructor of studenta class");
 
 	}
 
-	public Student(String stName, int stID, char sex, boolean stProgrammer, float grade) {
+	public Student(String stName, int stID, char sex, boolean stProgrammer, float grade) {//parameterized constructor declared
 		super();
 		this.stName = stName;
 		this.stID = stID;
